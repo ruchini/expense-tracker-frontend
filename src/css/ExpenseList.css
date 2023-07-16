@@ -1,0 +1,15 @@
+.expense-list-container {
+    margin: 20px;
+  }
+  
+  .expense-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .expense-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
