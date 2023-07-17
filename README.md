@@ -69,24 +69,25 @@ Follow these instructions to get the frontend application up and running on your
 
 Uploaded the working app images inside src/assests folder.
 
-ex: ![Dashboard](src/assests/normalDashboard.png)
+ex: 
+- ![Dashboard](src/assests/normalDashboard.png)
 
-![Alert Dashboard](src/assests/redDashboard.png)
+- ![Alert Dashboard](src/assests/redDashboard.png)
 
-![Expenses list](src/assests/listview.png)
+- ![Expenses list](src/assests/listview.png)
 
-![Add Expenses](src/assests/addexpenses.png)
+- ![Add Expenses](src/assests/addexpenses.png)
 
-![Add Expenses Form](src/assests/addexpensesForm.png)
+- ![Add Expenses Form](src/assests/addexpensesForm.png)
 
-![Update Expenses](src/assests/editmodel.png)
+- ![Update Expenses](src/assests/editmodel.png)
 
-![Add Expenses Type](src/assests/typeSelectwhenAdding.png)
+- ![Add Expenses Type](src/assests/typeSelectwhenAdding.png)
 
-![Add Expenses Successmsg](src/assests/addExpensesSuccessMsg.png)
+- ![Add Expenses Successmsg](src/assests/addExpensesSuccessMsg.png)
 
-![Delete Expenses Successmsg](src/assests/deletesuccess.png)
+- ![Delete Expenses Successmsg](src/assests/deletesuccess.png)
 
-![Edit Expenses Successmsg](src/assests/editsuccess.png)
+- ![Edit Expenses Successmsg](src/assests/editsuccess.png)
 
-![Add Expenses Date Select](src/assests/dateSelect.png)
+- ![Date Select](src/assests/dateselect.png)
