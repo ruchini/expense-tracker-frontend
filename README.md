@@ -1,70 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Expense Tracker Frontend
 
-## Available Scripts
+This is the frontend application for the Expense Tracker. It allows users to track their expenses and view expense reports.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add new expenses
+- View list of expenses
+- Error handling for API requests
+- Success alert message
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- axios
+- Material-UI
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these instructions to get the frontend application up and running on your local machine.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (version X.X.X)
+- npm (version X.X.X)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone git@github.com:ruchini/expense-tracker-frontend.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd expense-tracker-frontend
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+### Configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open the `src/api.js` file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Update the Base url endpoint based on your backend server configuration:
 
-### Code Splitting
+   ```javascript
+   API_BASE_URL = 'http://localhost:3000'
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+2. Open your web browser and navigate to `http://localhost:3001` to access the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Working App
 
-### Advanced Configuration
+Uploaded the working app images inside src/assests folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ex: ![Dashboard](src/assests/normalDashboard.png)
 
-### Deployment
+![Alert Dashboard](src/assests/redDashboard.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Expenses list](src/assests/listview.png)
 
-### `npm run build` fails to minify
+![Add Expenses](src/assests/addexpenses.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Add Expenses Form](src/assests/addexpensesForm.png)
+
+![Update Expenses](src/assests/editmodel.png)
+
+![Add Expenses Type](src/assests/typeSelectwhenAdding.png)
+
+![Add Expenses Successmsg](src/assests/addExpensesSuccessMsg.png)
+
+![Delete Expenses Successmsg](src/assests/deletesuccess.png)
+
+![Edit Expenses Successmsg](src/assests/editsuccess.png)
+
+![Add Expenses Date Select](src/assests/dateSelect.png)
